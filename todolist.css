@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+.main{
+    border: 1px solid lightgray;
+    padding: 30px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+li{
+    list-style: none;
+    border: 1px solid lavender;
+    padding: 9px;
+    width: 70%;
+    background-color: aliceblue;
+    box-shadow: 0px 10px 10px lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.del_btn{
+    margin-left: 90%;
+}
+span{
+    width: 60%;
+}
+#user_input{
+    padding: 15px;
+    font-size:medium;
+    outline: none;
+    border: 1px solid lightgray;
+    box-shadow: 0px 10px 10px lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 40%;
+}
+.plus{
+    width: 40px;
+}
+button{
+    border-radius: 20%;
+    border: 1px solid lightcyan;
+    box-shadow: 0px 10px 10px lightgray;
+    cursor:grab;
+}
+.delete{
+    width: 30px;
+}
+.result{
+    width: 100%;
+    font-size: medium;
+}
+@media screen and (max-width:480px)
+{
+    .main{
+        width: 92%;
+        margin-left: 0%;
+        padding: 9px;
+        padding-top: 20px;
+    }
+    #user_input{
+        width: 70%;
+    }
+}
