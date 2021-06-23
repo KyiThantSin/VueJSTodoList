@@ -118,4 +118,7 @@ button{
     .del_btn{
         margin-left: 75%;
     }
+    .edit_text{ 
+    width:60%;
+}
 }
