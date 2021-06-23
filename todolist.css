@@ -52,6 +52,7 @@ li{
     width: 40px;
     
 }
+
 button{
     border-radius: 20%;
     border: 1px solid lightcyan;
@@ -62,8 +63,10 @@ button{
     width: 30px;
     background-color:aliceblue ;
     margin-left: 5px;
-    
-
+    cursor: pointer;
+}
+.delete,.edit:hover{
+    background-color: antiquewhite;
 }
 .result{
     width: 100%;
@@ -95,6 +98,7 @@ button{
     font-weight: 800;
     padding: 2%;
 }
+
 @media screen and (max-width:480px)
 {   
     .main{
