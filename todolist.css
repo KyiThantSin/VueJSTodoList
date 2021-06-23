@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("img/bg.jpg");
+    background-repeat:repeat;
+}
 h1{
     text-align: center;
 }
-.main{
-    border: 1px solid lightgray;
-    padding: 30px;
-    width: 80%;
-    margin-left: 10%;
-
+#main{
+    padding: 10px;
 }
 li{
     list-style: none;
@@ -21,13 +26,16 @@ li{
     border-bottom-right-radius: 10px;
 }
 .del_btn{
-    margin-left: 90%;
+    margin-left: 85%;
+    display: inline-flex;
 }
-span{
+.span{
     width: 60%;
+    font-weight: 800;
+    margin-left: 8px;
 }
 #user_input{
-    padding: 15px;
+    padding: 12px;
     font-size:medium;
     outline: none;
     border: 1px solid lightgray;
@@ -36,10 +44,13 @@ span{
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 40%;
+    width: 60%;
+    color: black;
+    font-weight: 600;
 }
 .plus{
     width: 40px;
+    
 }
 button{
     border-radius: 20%;
@@ -47,22 +58,60 @@ button{
     box-shadow: 0px 10px 10px lightgray;
     cursor:grab;
 }
-.delete{
+.delete,.edit{
     width: 30px;
+    background-color:aliceblue ;
+    margin-left: 5px;
+    
+
 }
 .result{
     width: 100%;
     font-size: medium;
+    font-weight: 400;
+    color: black;
+}
+.check{
+    margin-left: 2px;
+}
+.done{
+    text-decoration: line-through;
+}
+.job{
+    display: inline-flex;
+}
+.pill{
+    width: 100px;
+    padding: 8px;
+    background-color:#2196F3;
+    color: aliceblue;
+    font-weight: 400;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.edit_text{
+    font-weight: 800;
+    padding: 2%;
 }
 @media screen and (max-width:480px)
-{
+{   
     .main{
-        width: 92%;
-        margin-left: 0%;
+        margin-left: 2%;
         padding: 9px;
         padding-top: 20px;
     }
     #user_input{
         width: 70%;
+    }
+    .result{
+        margin-top: 40px;
+    }
+    li{
+        width: 90%;
+    }
+    .del_btn{
+        margin-left: 75%;
     }
 }
